@@ -7,7 +7,7 @@ Default login is admin and password. This can be changed in the code and recompi
 
 # Using N-Krypt Password Gen
 You can use the code directly in the Python IDLE or use the provided exe file.
-Note:You can use py-to-exe converter to compile the code yourself.
+Note: You can use py-to-exe converter to compile the code yourself.
 
 
 
