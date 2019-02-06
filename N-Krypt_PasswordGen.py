@@ -584,7 +584,7 @@ class LoginFrame(Frame):
             button2 = Button(root, text=" Level Two N-Kryption ",font=("fixedsys", 20),command=generate_pass2, fg="yellow",bg='black',borderwidth=10, relief="sunken")
             button3 = Button(root, text="Level Three N-Kryption",font=("fixedsys", 20),command=generate_pass3, fg="maroon1",bg='black',borderwidth=10, relief="sunken")
             button4 = Button(root, text=" Level Four N-Kryption",font=("fixedsys", 20),command=generate_pass4, fg="white",bg='black',borderwidth=10, relief="sunken")
-            button = Button(root, text="Quit",font=("fixedsys", 15),command= quit, fg="red",bg='black')
+            button = Button(root, text="Quit",font=("fixedsys", 15),command= root.quit, fg="red",bg='black')
             button1.place(relx=0.25, rely=.37, anchor="c")
             button2.place(relx=.25, rely=.50, anchor="c")
             button3.place(relx=.25, rely=.62, anchor="c")
